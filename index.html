@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NopallSndy</title>
+    <link rel="stylesheet" href="SignUpstyle.css">
+    <script type="module" src="https://unpkg.com/ionnicons07.1.0/dist/ionicons/ionicons.esm.js"></script>
+</head>
+<body>
+    <div class="loading-text"> NopallSndy </div>
+    <div class="background-blur"> </div>
+    <div class="form-container">
+      <form class="login-form">
+       <h2> Sign Up </h2>
+       <input type="text" placeholder="username" required>
+       <input type="email" placeholder="Email" required>
+       <div class="password-wrapper">
+         <input type="password" id="signupPassword" placeholder="passwornd"required>
+         <ion-icon class="toggle-passwornd" name="eye-outline" onclick="togglePasswordVisibility ('signuppassword')"></ion-icon>
+        </div>
+        <button type="submit">Sign Up</button>
+        </form>
+       </div>
+    <script src="SignUp.js"></script>
+</body>
+</html>
